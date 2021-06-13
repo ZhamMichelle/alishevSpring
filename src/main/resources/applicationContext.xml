@@ -14,7 +14,8 @@
     </bean>
 
     <bean id="playMusic"
-        class="org.example.PlayMusic">
+        class="org.example.PlayMusic"
+        scope="prototype">
         <property name="music" ref="musicBean"/>
         <property name="name" value="${playMusic.name}"/>
         <property name="volume" value="${playMusic.volume}"/>

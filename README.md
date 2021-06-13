@@ -1,6 +1,6 @@
 # alishevSpring
 
-in the second commit with name "Inversion of Control" we considered 3 problems
+---- in the second commit with name "Inversion of Control" we considered 3 problems
   1.  MusicPlayer сильно зависит от ClassicalMusic. класс MusicPlayer сильео заточен на работу только с ClassicalMusic:
         class MusicPlayer{
           private ClassicalMusic classicalMusic;
@@ -28,3 +28,11 @@ in the second commit with name "Inversion of Control" we considered 3 problems
    3. MusicPlayer сам создает свои зависимости. это архитектурно неправильно - противоречит принципу IoC.
       
       Решение: Использовать принцип IoC: передача зависимости через конструктор.
+
+---- in the 7-th lesson about Bean Scope (область видимости бинов)
+Scope Singleton чаще всего используется тогда, когда у нашего бина нет изменяемых состояний.
+По умолчанию создается один объект (он создается до вызова метода getBean()).
+При всех вызовах getBean() возвращается ссылка на один и тот же единственный объект.
+
+Scope Prototype, который каждый раз создает новый объект при вызове getBean().
+чаще всего используется тогда, когда у нашего бина есть изменяемые состояния.
