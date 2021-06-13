@@ -8,9 +8,11 @@ public class TestSpring {
         //помещает все бины, которые там есть, в ApplicationContext
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Music music= context.getBean("musicBean",Music.class);
-        PlayMusic playMusic=new PlayMusic(music);
+
+        PlayMusic playMusic=context.getBean("playMusic",PlayMusic.class);
         playMusic.player();
+        System.out.println(playMusic.getName());
+        System.out.println(playMusic.getVolume());
 
         context.close();
     }
