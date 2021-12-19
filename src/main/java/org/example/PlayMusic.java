@@ -1,6 +1,14 @@
 package org.example;
 
+//import org.apache.logging.log4j.*;
+import org.apache.logging.log4j.Level;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
 public class PlayMusic {
+//    private final static Logger logger = LogManager.getLogger(PlayMusic.class);
+    private final static Logger logger = LoggerFactory.getLogger(PlayMusic.class);
     private Music music;
     private String name;
     private int volume;
@@ -18,6 +26,12 @@ public class PlayMusic {
     }
 
     public String getName() {
+
+        logger.warn("name={}", name);
+        logger.error("name={}", name);
+        logger.info("name={}", name);
+        logger.debug("name={}", name);
+        logger.trace("name={}", name);
         return name;
     }
 

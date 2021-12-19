@@ -1,0 +1,70 @@
+2021-12-19 13:05:52.054 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@623e088f
+2021-12-19 13:05:52.149 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2021-12-19 13:05:52.162 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-12-19 13:05:52.192 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.name' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:05:52.192 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.volume' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:05:52.195 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'musicBean'
+2021-12-19 13:05:52.234 [main] WARN  org.example.PlayMusic - name=some name
+2021-12-19 13:05:52.234 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:05:52.235 [main] INFO  org.example.PlayMusic - name=some name
+2021-12-19 13:05:52.235 [main] DEBUG org.example.PlayMusic - name=some name
+2021-12-19 13:05:52.242 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@623e088f, started on Sun Dec 19 13:05:52 ALMT 2021
+2021-12-19 13:08:02.902 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@623e088f
+2021-12-19 13:08:02.991 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2021-12-19 13:08:03.003 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-12-19 13:08:03.037 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.name' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:08:03.037 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.volume' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:08:03.041 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'musicBean'
+2021-12-19 13:08:03.095 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@623e088f, started on Sun Dec 19 13:08:02 ALMT 2021
+2021-12-19 13:09:37.658 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@623e088f
+2021-12-19 13:09:37.745 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2021-12-19 13:09:37.756 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-12-19 13:09:37.792 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.name' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:09:37.793 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.volume' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:09:37.797 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'musicBean'
+2021-12-19 13:09:37.839 [main] WARN  org.example.PlayMusic - name=some name
+2021-12-19 13:09:37.839 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:09:37.840 [main] INFO  org.example.PlayMusic - name=some name
+2021-12-19 13:09:37.840 [main] DEBUG org.example.PlayMusic - name=some name
+2021-12-19 13:09:37.847 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@623e088f, started on Sun Dec 19 13:09:37 ALMT 2021
+2021-12-19 13:19:46.892 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40317ba2
+2021-12-19 13:19:47.000 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2021-12-19 13:19:47.010 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-12-19 13:19:47.043 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.name' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:19:47.044 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.volume' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:19:47.047 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'musicBean'
+2021-12-19 13:19:47.085 [main] WARN  org.example.PlayMusic - name=some name
+2021-12-19 13:19:47.086 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:19:47.086 [main] INFO  org.example.PlayMusic - name=some name
+2021-12-19 13:19:47.087 [main] DEBUG org.example.PlayMusic - name=some name
+2021-12-19 13:19:47.094 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@40317ba2, started on Sun Dec 19 13:19:46 ALMT 2021
+2021-12-19 13:19:54.806 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:20:08.758 [main] WARN  org.example.PlayMusic - name=some name
+2021-12-19 13:20:08.763 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:20:23.887 [main] WARN  org.example.PlayMusic - name=some name
+2021-12-19 13:20:23.892 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:20:33.098 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40317ba2
+2021-12-19 13:20:33.210 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2021-12-19 13:20:33.221 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-12-19 13:20:33.254 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.name' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:20:33.255 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.volume' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:20:33.258 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'musicBean'
+2021-12-19 13:20:33.296 [main] WARN  org.example.PlayMusic - name=some name
+2021-12-19 13:20:33.296 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:20:33.297 [main] INFO  org.example.PlayMusic - name=some name
+2021-12-19 13:20:33.297 [main] DEBUG org.example.PlayMusic - name=some name
+2021-12-19 13:20:33.305 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@40317ba2, started on Sun Dec 19 13:20:33 ALMT 2021
+2021-12-19 13:20:57.499 [main] WARN  org.example.PlayMusic - name=some name
+2021-12-19 13:20:57.504 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:20:57.504 [main] INFO  org.example.PlayMusic - name=some name
+2021-12-19 13:21:41.433 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40317ba2
+2021-12-19 13:21:41.538 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [applicationContext.xml]
+2021-12-19 13:21:41.549 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-12-19 13:21:41.584 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.name' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:21:41.584 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'playMusic.volume' in PropertySource 'localProperties' with value of type String
+2021-12-19 13:21:41.588 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'musicBean'
+2021-12-19 13:21:41.626 [main] WARN  org.example.PlayMusic - name=some name
+2021-12-19 13:21:41.627 [main] ERROR org.example.PlayMusic - name=some name
+2021-12-19 13:21:41.627 [main] INFO  org.example.PlayMusic - name=some name
+2021-12-19 13:21:41.627 [main] DEBUG org.example.PlayMusic - name=some name
+2021-12-19 13:21:41.634 [main] DEBUG org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@40317ba2, started on Sun Dec 19 13:21:41 ALMT 2021
